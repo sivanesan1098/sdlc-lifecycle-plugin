@@ -1,0 +1,30 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "name": "sdlc-lifecycle-plugin",
+  "displayName": "SDLC Lifecycle",
+  "version": "1.0.0",
+  "description": "Spec-driven autonomous feature engineering pipeline: 3-document anchoring system (conversation-context, PLAN, TRACKER), visual UI prototyping, multi-tier quality verification, and VCS hygiene.",
+  "author": {
+    "name": "Sivanesan Dharumadurai",
+    "url": "https://github.com/sivanesan1098"
+  },
+  "homepage": "https://github.com/sivanesan1098/sdlc-lifecycle-plugin",
+  "skills": [
+    "./skills/sdlc-lifecycle"
+  ],
+  "instructions": [
+    "./AGENTS.md"
+  ],
+  "keywords": [
+    "sdlc",
+    "lifecycle",
+    "feature-engineering",
+    "spec-driven",
+    "plan",
+    "tracker",
+    "conversation-context",
+    "quality-gates",
+    "opencode"
+  ]
+}
+

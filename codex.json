@@ -1,0 +1,26 @@
+{
+  "name": "sdlc-lifecycle",
+  "displayName": "SDLC Lifecycle",
+  "version": "1.0.0",
+  "description": "Spec-driven autonomous feature engineering pipeline for AI pair programming with OpenAI Codex.",
+  "author": {
+    "name": "Sivanesan Dharumadurai",
+    "url": "https://github.com/sivanesan1098"
+  },
+  "homepage": "https://github.com/sivanesan1098/sdlc-lifecycle-plugin",
+  "skills": [
+    {
+      "name": "sdlc-lifecycle",
+      "path": "./skills/sdlc-lifecycle/SKILL.md",
+      "description": "Guides end-to-end spec-driven feature engineering and full software development lifecycle (SDLC) workflows: 3-document anchoring, visual prototyping, and multi-tier quality gates."
+    }
+  ],
+  "instructions": "./AGENTS.md",
+  "keywords": [
+    "sdlc",
+    "codex",
+    "skills",
+    "feature-engineering"
+  ]
+}
+

@@ -1,0 +1,10 @@
+# Cursor SDLC Lifecycle Rules
+
+Enforce the 3-document anchoring system (`conversation-context.md`, `PLAN.md`, `TRACKER.md`) and multi-tier quality gates.
+
+1. **Session Memory**: Prompt user at start: "Save context to `conversation-context.md` for future sessions? (Yes/No)". Update after key decisions.
+2. **Architecture Before Code**: Create `PLAN.md` with explicit scope boundaries (isolate legacy code) before writing code.
+3. **Task Tracking**: Maintain `TRACKER.md` with numbered milestones (`M1`, `M2`) and checkboxes.
+4. **Quality Gates**: Zero linter errors, 100% test pass rate, and conventional commits.
+5. **Skill References**: Refer to `skills/sdlc-lifecycle/SKILL.md` for procedural runbooks.
+

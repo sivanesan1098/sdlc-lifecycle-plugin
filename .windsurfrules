@@ -1,0 +1,9 @@
+# Windsurf Cascade SDLC Lifecycle Rules
+
+Follow the 3-document anchoring protocol (`conversation-context.md`, `PLAN.md`, `TRACKER.md`) and multi-tier quality verification:
+
+1. **Context Memory**: Prompt user at session start: "Save context to `conversation-context.md` for future sessions? (Yes/No)". Update after key decisions.
+2. **Architectural Specification**: Write `PLAN.md` before implementation, strictly isolating out-of-scope legacy code.
+3. **Execution Tracking**: Track progress in `TRACKER.md` with numbered milestones (`M1`, `M2`) and live percentages.
+4. **Verification**: 0 linter errors, 100% test pass rate, and atomic conventional commits.
+

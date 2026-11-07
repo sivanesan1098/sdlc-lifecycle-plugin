@@ -1,0 +1,28 @@
+---
+description: Spec-driven autonomous SDLC engineering rules and 3-document anchoring protocol
+globs: *
+alwaysApply: true
+---
+
+# SDLC Lifecycle Rules & Engineering Principles
+
+Adhere to the following spec-driven engineering rules across all feature planning, execution, and verification tasks:
+
+## 1. The 3-Document Anchoring Protocol
+- **`conversation-context.md`** (Session Memory): Ask the user at the start of new sessions whether to maintain it. Update it synchronously after key decisions and at the end of every active turn.
+- **`PLAN.md`** (Architectural Specification): Align on architecture, interfaces, and scope boundaries before writing production code.
+- **`TRACKER.md`** (Execution Dashboard): Decompose `PLAN.md` into numbered milestones (`M1`, `M2`, etc.) with explicit checkboxes (`- [ ]` / `- [x]`) and percentage completion tracking.
+
+## 2. Scope Boundary Protection
+- Clearly distinguish newly created modules from existing legacy code.
+- Never modify or refactor legacy components designated as out-of-scope without explicit user approval.
+- Isolate new feature code into dedicated directories or sub-packages.
+
+## 3. Multi-Tier Quality Verification Gates
+- **Static Analysis Gate**: Zero errors or warnings on project linters (`flutter analyze`, `eslint`, `ruff`, etc.).
+- **Automated Test Gate**: 100% pass rate on unit, integration, or parity test suites.
+- **Runtime / Device Gate**: Verify on connected hardware/emulators when applicable.
+
+## 4. Git Hygiene
+- Use atomic, descriptive conventional commits (`feat:`, `fix:`, `docs:`, `refactor:`, `test:`, `chore:`).
+- Always verify working tree cleanliness (`git status`) before and after operations.

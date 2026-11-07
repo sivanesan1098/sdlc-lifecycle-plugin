@@ -1,0 +1,17 @@
+{
+  "name": "sdlc-lifecycle",
+  "owner": {
+    "name": "Sivanesan Dharumadurai",
+    "url": "https://github.com/sivanesan1098"
+  },
+  "plugins": [
+    {
+      "name": "sdlc-lifecycle",
+      "description": "Spec-driven autonomous feature engineering: 3-document anchoring system (conversation-context, PLAN, TRACKER), visual UI prototyping, multi-tier quality verification, and VCS hygiene.",
+      "version": "1.0.0",
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}
+
