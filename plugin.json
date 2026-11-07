@@ -1,0 +1,33 @@
+{
+  "name": "sdlc-lifecycle-plugin",
+  "displayName": "SDLC Lifecycle",
+  "version": "1.0.0",
+  "description": "Spec-driven autonomous feature engineering pipeline: 3-document anchoring system (conversation-context, PLAN, TRACKER), visual UI prototyping, multi-tier quality verification, and VCS hygiene.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Plan and execute a new feature using the SDLC lifecycle 3-document anchoring system",
+    "Audit this project's feature progress and update PLAN.md and TRACKER.md",
+    "Run the SDLC multi-tier quality gates: static analysis, unit tests, and device verification"
+  ],
+  "author": {
+    "name": "Sivanesan Dharumadurai",
+    "url": "https://github.com/sivanesan1098"
+  },
+  "homepage": "https://github.com/sivanesan1098/sdlc-lifecycle-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sivanesan1098/sdlc-lifecycle-plugin.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "sdlc",
+    "lifecycle",
+    "feature-engineering",
+    "spec-driven",
+    "plan",
+    "tracker",
+    "conversation-context",
+    "quality-gates",
+    "antigravity"
+  ]
+}
